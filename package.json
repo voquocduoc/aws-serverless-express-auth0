@@ -1,0 +1,29 @@
+{
+  "name": "myweb-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "start": "echo \"Error: no test specified\" && exit 1",
+    "dev": "serverless offline start --port 4000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless-dotenv-plugin": "^2.1.1",
+    "serverless-offline": "^5.5.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.1.0",
+    "express-jwt-authz": "^1.0.0",
+    "jwks-rsa": "^1.1.1",
+    "morgan": "^1.9.1",
+    "mssql": "^5.1.0",
+    "serverless-http": "^2.0.2"
+  }
+}
